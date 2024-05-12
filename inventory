@@ -7,3 +7,5 @@ backend.daredevops.online
 [frontend]
 daredevops.online
 
+[all:vars]
+ansible_password=DevOps321
