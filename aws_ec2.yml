@@ -1,8 +1,8 @@
 plugin: amazon.aws.aws_ec2
 regions:
 - us-east-1
-keyed_group:
-- key: tags['name']
+keyed_groups:
+- key: tags['Name']
   prefix: ''
   parent_group: ''
 
