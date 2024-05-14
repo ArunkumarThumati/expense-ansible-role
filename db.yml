@@ -1,5 +1,7 @@
 - name: configuration of DB using Role
   hosts: db
   become: yes
+  vars:
+  - credentials.yml
   roles:
   - db
